@@ -6,11 +6,14 @@
     "noImplicitAny": true,
     "moduleResolution": "node",
     "sourceMap": true,
-    "experimentalDecorators": true,
-    "outDir": "./dist",
+    // "experimentalDecorators": true,
+    "outDir": "dist",
     "baseUrl": "."
   },
   "includes": [
     "src/**/*"
+  ],
+  "exclude": [
+    "test/*"
   ]
 }
